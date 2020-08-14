@@ -137,7 +137,6 @@ section h2 {
 }
 .navbar-nav {
   background-color: brown;
-  margin-left: 900px;
 }
 .navbar-nav > li {
   height: 60px;
@@ -145,7 +144,6 @@ section h2 {
 }
 
 .navbar-nav > li a {
-  display: block;
   height: 60px;
   text-align: center;
   padding-top: 15px;
@@ -680,6 +678,19 @@ figure.anim4:hover p {
 .rating a:focus ~ a {
   color: orange;
   cursor: pointer;
+}
+
+/* média queries menu*/
+@media all and (max-width: 1024px) {
+  .rating {
+    margin-left: 200px;
+  }
+  .rating a {
+    font-size: 2em;
+  }
+  .avis {
+    margin-left: 200px;
+  }
 }
 
 .proJs.scrolling {
