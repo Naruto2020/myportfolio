@@ -171,6 +171,16 @@ section h2 {
   color: #ffffff;
 }
 
+@media all and (max-width: 1024px){
+   .navbar-nav > li a {
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400px;
+    color: #ffffff;
+   }
+}
+
 .navbar-nav > li a:hover,
 .navbar-nav > li a:focus {
   background-color: #22a39f;
@@ -203,6 +213,13 @@ p {
   height: 250px;
   border-radius: 250px;
 }
+
+@media all and (max-width: 1024px){
+  .midle-pro img{
+    margin: auto;
+  }
+}
+
 #pageE {
   background-color: honeydew;
   overflow: hidden;
@@ -717,7 +734,7 @@ figure.anim4:hover p {
   }
 }
 
-.proJs.scrolling {
+/*.proJs.scrolling {
   background-color: #22a39f;
 }
 .expJs.scrolling {
