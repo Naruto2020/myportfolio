@@ -53,6 +53,18 @@ header {
   vertical-align: middle;
   text-shadow: 1px 1px 10px black;
 }
+
+.wrapper input{  
+  background-color: 	rgba(0, 0, 0, 0);
+  border: solid 1px transparent;
+  color: orange;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 100px;
+  padding-left: 25px;
+}
+ 
+
 h1,
 h2 {
   font-size: 75 "Trebuchet MS ", arial, serif;
@@ -75,7 +87,7 @@ section h2 {
   height: 0;
   border-left: 18px solid transparent;
   border-right: 18px solid transparent;
-  border-top: 30px solid gold;
+  border-top: 30px solid orange;
   position: absolute;
   right: 28px;
   bottom: 5px;
@@ -85,7 +97,7 @@ section h2 {
   .arrow-down {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 20px solid gold;
+    border-top: 20px solid orange;
     position: absolute;
     right: 24px;
   }

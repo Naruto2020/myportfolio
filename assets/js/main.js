@@ -63,6 +63,28 @@ var scro = function () {
   });
 };
 
+// animation texte page accueil
+
+var largEcran = window.innerWidth;
+var hautEcran = window.innerHeight;
+
+var position = 0;
+var msg =
+  "Vous recherchez un talent en programmation ? ... Vous êtes au bon endroit !";
+var msg = " " + msg;
+var long = msg.length;
+var fois = 76 / msg.length + 1;
+for (i = 0; i <= fois; i++) {
+  msg += msg;
+}
+function textdefil() {
+  document.form1.deftext.value = msg.substring(position, position + 76);
+  position++;
+  if (position == long) position = 0;
+  setTimeout("textdefil()", 250);
+}
+//window.onload = textdefil;
+
 // animation du background des projets
 var ecrans = function () {
   var $EcranP = $(".proAJs figure figcaption");
@@ -106,5 +128,6 @@ var ecrans = function () {
 $(function () {
   ancres();
   scro();
+  textdefil();
   ecrans();
 });
