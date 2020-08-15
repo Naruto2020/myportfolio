@@ -128,11 +128,11 @@ var ecrans = function () {
 };
 
 $(function () {
+  ancres();
   textdefil();
+  scro();
+  ecrans();
   $(window).resize(function () {
     redimentionFen();
-    ancres();
-    scro();
-    ecrans();
   });
 });
