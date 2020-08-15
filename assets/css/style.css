@@ -64,6 +64,17 @@ header {
   padding-left: 25px;
 }
  
+@media all and (max-width: 1024px){
+  .wrapper input{
+    background-color: 	rgba(0, 0, 0, 0);
+  border: solid 1px transparent;
+  color: orange;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding-left: 25px;
+  }
+}
 
 h1,
 h2 {
