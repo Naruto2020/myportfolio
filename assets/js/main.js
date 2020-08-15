@@ -78,7 +78,7 @@ redimentionFen = function () {
 
 var position = 0;
 var msg =
-  "Vous recherchez un talent en programmation ? ... Vous êtes au bon endroit !";
+  "Vous recherchez un talent en programmation ? ... Vous êtes au bon endroit !  ";
 var msg = " " + msg;
 var long = msg.length;
 var fois = 76 / msg.length + 1;
