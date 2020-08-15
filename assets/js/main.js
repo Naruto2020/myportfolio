@@ -65,8 +65,10 @@ var scro = function () {
 
 // animation texte page accueil
 
-var largEcran = window.innerWidth;
-var hautEcran = window.innerHeight;
+redimentionFen = function () {
+  var largEcran = window.innerWidth;
+  var hautEcran = window.innerHeight;
+};
 
 var position = 0;
 var msg =
@@ -126,8 +128,11 @@ var ecrans = function () {
 };
 
 $(function () {
-  ancres();
-  scro();
   textdefil();
-  ecrans();
+  $(window).resize(function () {
+    redimentionFen();
+    ancres();
+    scro();
+    ecrans();
+  });
 });
