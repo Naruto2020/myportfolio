@@ -66,13 +66,13 @@ header {
  
 @media all and (max-width: 1024px){
   .wrapper input{
-    background-color: 	rgba(0, 0, 0, 0);
+  background-color: 	rgba(0, 0, 0, 0);
   border: solid 1px transparent;
   color: orange;
   font-weight: bold;
-  margin-top: 10px;
-  margin-left: 50px;
-  padding-left: 25px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
   }
 }
 
