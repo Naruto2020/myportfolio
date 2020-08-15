@@ -68,6 +68,12 @@ var scro = function () {
 redimentionFen = function () {
   var largEcran = window.innerWidth;
   var hautEcran = window.innerHeight;
+  if (window.innerWidth <= 1024) {
+    largEcran = window.innerWidth;
+  }
+  if (window.innerHeight >= 800) {
+    hautEcran = window.innerHeight;
+  }
 };
 
 var position = 0;
