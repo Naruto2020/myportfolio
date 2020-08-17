@@ -16,6 +16,10 @@ var speed = 650; // Durée de l'animation (en ms)
 
 // deplacement animé des ancres
 var ancres = function () {
+  $("nav .accueil").click(function () {
+    $("html, body").animate({ scrollTop: $("#welcome").offset().top }, speed); // Go
+    return false;
+  });
   $(".wrapper button").click(function () {
     $("html, body").animate({ scrollTop: $(".btnScroll").offset().top }, speed); // Go
     return false;
@@ -78,7 +82,7 @@ redimentionFen = function () {
 
 var position = 0;
 var msg =
-  "Vous recherchez un talent en programmation ? ... Vous êtes au bon endroit !  ";
+  "Vous recherchez un talent en programmation web ? ... Vous êtes au bon endroit !  ";
 var msg = " " + msg;
 var long = msg.length;
 var fois = 76 / msg.length + 1;
